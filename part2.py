@@ -3,3 +3,4 @@ def to_cumulative_delayed(str,num):
     index=len(str)%num
     str[:,num-index]
     splitted=[i.split(',') for i in str]
+    #test
